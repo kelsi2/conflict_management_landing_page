@@ -78,7 +78,7 @@ p {
   justify-content: space-around;
   align-items: flex-start;
   width: 90%;
-  margin: auto;
+  margin: 7rem auto;
   padding: 2rem;
 }
 
@@ -114,6 +114,22 @@ p {
   color: #fff;
 }
 
+.contact h2 {
+  text-align: center;
+  padding: 3rem;
+  padding-bottom: 1rem;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 2rem 0;
+  letter-spacing: 1.5px;
+}
+
+hr {
+  width: 10%;
+  margin: 0 auto 3rem auto;
+  opacity: 0.5;
+}
+
 .instructors {
   display: flex;
   justify-content: space-around;
@@ -122,4 +138,26 @@ p {
 .instructor {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.instructor p {
+  margin: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.instructor img {
+  border-radius: 50%;
+}
+
+.logo {
+  height: auto;
+  width: 10rem;
+}
+
+.response {
+  text-align: center;
+  font-size: 130%;
+  margin: 2rem;
 }
