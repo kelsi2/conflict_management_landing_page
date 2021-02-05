@@ -161,3 +161,58 @@ hr {
   font-size: 130%;
   margin: 2rem;
 }
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 40px;
+    padding: auto 0.2rem;
+  }
+
+  .hero h2 {
+    font-size: 20px;
+  }
+
+  .contact-btn {
+    font-size: 1rem;
+  }
+
+  .content {
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .content-box:last-child {
+    padding-bottom: 2rem;
+  }
+
+  .content-box h3 {
+    margin-top: 0;
+  }
+
+  .content-box p {
+    margin-bottom: 0
+  }
+
+  .contact h2 {
+    font-size: 150%;
+    padding: 1rem;
+  }
+
+  .instructors {
+    flex-direction: column;
+  }
+
+  .instructor {
+    margin-bottom: 2rem;
+  }
+
+  .instructor img {
+    max-width: 70%;
+  }
+
+  .instructor p {
+    font-size: 100%;
+  }
+}
